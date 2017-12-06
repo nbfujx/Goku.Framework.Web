@@ -87,6 +87,14 @@ export const appRouter = [
                 component: resolve => { require(['@/views/sys/menu/page/page.vue'], resolve); }
             }
         ]
+    },
+    {
+        path: '/org',
+        icon: 'ios-book',
+        title: '部门管理',
+        name: 'org',
+        component: Main,
+        children: []
     }
 ];
 
